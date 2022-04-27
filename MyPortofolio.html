@@ -81,26 +81,47 @@
     </div>
 
 <!-- Article -->
-<section id="" style="background-color: #ebe5e9">
+<section id="article" style="background-color: #efdcea">
   <div class="container">
-    <div class="row text-center mb-4">
+    <div class="row text-center">
       <div class="col">
-        <h2>ARTICLE</h2>
+        <h2>Article</h2>
       </div>
     </div>
     <div class="row">
-      <div class="col-4" v-for="data in article">
+      <div class="col-md-4 mb-3">
         <div class="card">
-          <img :src="data.Thumbnail" class="card-img-top" alt="SD" />
+          <img src="img/cafe.jpg" class="card-img-top" alt="" />
           <div class="card-body">
-            <h5 class="card-title">{{ data.Title }}</h5>
-             <h7 class="card-text">by : {{ data.Author }}</h6>
-            <p class="card-text text-center">{{ data.Content }}</p>
+            <h5 class="card-title">Cafe Review</h5>
+            <p class="card-text">Berbagai macam cafe yang di review</p>
+            <a href="https://id.wikipedia.org/wiki/Kafe" class="btn btn-primary">READ</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <img src="img/food.jpg" class="card-img-top" alt="" />
+          <div class="card-body">
+            <h5 class="card-title">Food Review</h5>
+            <p class="card-text">Berbagai macam makanan yang di review</p>
+            <a href="https://en.wikipedia.org/wiki/Food" class="btn btn-primary">READ</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <img src="img/shop.jpg" class="card-img-top" alt="" />
+          <div class="card-body">
+            <h5 class="card-title">Online Shop Review</h5>
+            <p class="card-text">Berbagai macam Online Shop yang di review</p>
+            <a href="https://id.wikipedia.org/wiki/Belanja_daring" class="btn btn-primary" >READ</a>
           </div>
         </div>
       </div>
     </div>
   </div>
+  
 </section>
 
 <!-- Start of Vue App -->
