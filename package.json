@@ -1,0 +1,23 @@
+{
+    "name": "tekweb2022",
+    "version": "1.0.0",
+    "description": "2000016083",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ulanret/tekweb2022t"
+    },
+    "author": "Ade Ilma",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/ulanret/tekweb2022/issues"
+    },
+    "homepage": "https://github.com/ulanret/tekweb2022",
+    "dependencies": {
+      "bootstrap": "^5.1.3",
+      "jquery": "^3.6.0"
+    }
+  }
