@@ -250,3 +250,41 @@ response:
 true    // if success
 false   // if failure
 ```
+
+## Desain Database
+
+Berikut adalah pola design dari database saya:
+
+```mermaid
+classDiagram
+    class user{
+        # id: int
+        + avatar_url: string
+        + nama: string
+        + desc: string
+        + birthday: string
+        + website: string
+        + phone: string
+        + city: string
+        + age: string
+        + email: string
+        + getAllUser()
+        + getUserById()
+        + createUser()
+        + updateUser()
+        + deleteUser()
+    }
+    class article{
+        # id: int
+        + thumbnail_url: string
+        + title: string
+        + content: string
+        + author: string
+        + article_url: string
+        + getAllArticle()
+        + getArticleById()
+        + createArticle()
+        + updateArticle()
+        + deleteArticle()
+    }
+```
